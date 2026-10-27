@@ -1,7 +1,11 @@
-body {
-    font-family: monospace;
+:root {
+--green: #00FF00;
+--white: #FFFFFF;
+--black: #000000;
 }
-ul {
+body {
+    background: var(--bg);
+    color: var(--fontColor);
     font-family: helvetica;
 }
 li {
@@ -10,10 +14,11 @@ li {
 .list {
     list-style: square;
 }
-#msg {
-    font-family: monospace;
-}
 .light-theme {
-    color: #000000;
-    background: #00FF00;
+    --bg: var(--green);
+    --fontColor: var(--black);
+}
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
 }
