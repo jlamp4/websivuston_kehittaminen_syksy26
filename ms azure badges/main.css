@@ -1,5 +1,5 @@
 :root {
---green: #00FF00;
+--pink: #e985a8;
 --white: #FFFFFF;
 --black: #000000;
 }
@@ -15,14 +15,14 @@ li {
     list-style: square;
 }
 .light-theme {
-    --bg: var(--green);
+    --bg: var(--pink);
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
 }
 .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--green);
+    --fontColor: var(--pink);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
@@ -33,7 +33,7 @@ li {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: none;
+    border: 5px solid aquamarine;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
 }
