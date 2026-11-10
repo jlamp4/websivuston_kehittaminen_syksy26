@@ -96,23 +96,3 @@ p {
 .pseudo-list li:nth-child(even) {
     background-color: rgb(222, 168, 88);
 }
-.filter-image {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
-}
-.filter-image:hover {
-    filter: grayscale(0%);
-}
-.quote {
-    position: relative;
-    padding-left: 20px;
-    font-style: italic;
-}
-.quote::before {
-    content: '"';
-    font-size: 40px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: rgb(198, 145, 65);
-}
