@@ -65,7 +65,7 @@ p {
         background-color: #d7c9a8;
     }
     .transition-button {
-        color: #573f06;
+        color: #342504;
         background-color: rgb(209, 131, 131);
         padding:10px 20px;
         border: none;
@@ -87,6 +87,12 @@ p {
             left: 0;
         }
         to {
-            left: 100px;
+            left: 150px;
         }
     }
+.pseudo-list li:nth-child(odd) {
+    background-color: rgb(242, 202, 141);
+}
+.pseudo-list li:nth-child(even) {
+    background-color: rgb(222, 168, 88);
+}
