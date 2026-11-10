@@ -1,0 +1,66 @@
+p { 
+      color: black
+    }
+    body {
+      background-color: blanchedalmond;
+    }
+    h1 {
+        font-size: 2em;
+        color: brown;
+    }
+    h2 {
+        color: rgb(155, 67, 67);
+    }
+    h3 {
+        color: rgb(59, 16, 16);
+    }
+    .content-box {
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(228, 181, 110);
+        border: 2px solid #533d0a;
+        text-align: center;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        background-color: rgb(255, 216, 162);
+        border: 2px solid #533d0a;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: rgb(222, 168, 88);
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="text"], input[type="email"], textarea {
+        padding: 8px;
+        border: 1px solid #533d0a;
+        border-radius: 4px;
+    }
+    input[type="text"], input[type="name"] {
+        padding: 8px;
+        border: 1px solid #533d0a;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        font-weight: bold;
+        background-color: rgb(237, 199, 140);
+        color: #82692f;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #d7c9a8;
+    }
