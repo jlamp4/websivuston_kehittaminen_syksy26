@@ -97,11 +97,11 @@ p {
     background-color: rgb(222, 168, 88);
 }
 .filter-image {
-    filter: grayscale(100%);
+    filter: sepia(100%);
     transition: filter 0.3s ease;
 }
 .filter-image:hover {
-    filter: grayscale(0%);
+    filter: sepia(0%);
 }
 .quote {
     position: relative;
