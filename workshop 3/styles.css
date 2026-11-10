@@ -64,3 +64,29 @@ p {
     input[type="submit"]:hover {
         background-color: #d7c9a8;
     }
+    .transition-button {
+        color: #573f06;
+        background-color: rgb(209, 131, 131);
+        padding:10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .transition-button:hover {
+        background-color: rgb(222, 168, 88);
+    }
+    .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(228, 181, 110);
+        position: relative;
+        animation: move 2s infinite alternate;
+    }
+    @keyframes move {
+        from {
+            left: 0;
+        }
+        to {
+            left: 100px;
+        }
+    }
