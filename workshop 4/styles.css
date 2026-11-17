@@ -116,3 +116,13 @@ p {
     top: 0;
     color: rgb(198, 145, 65);
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-item {
+    background-color: rgb(228, 181, 110);
+    padding: 20px;
+    text-align: center;
+}
