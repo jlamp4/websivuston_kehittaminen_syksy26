@@ -1,0 +1,152 @@
+p { 
+      color: black
+    }
+    body {
+      background-color: blanchedalmond;
+    }
+    h1 {
+        font-size: 2em;
+        color: brown;
+    }
+    h2 {
+        color: rgb(155, 67, 67);
+    }
+    h3 {
+        color: rgb(59, 16, 16);
+    }
+    .content-box {
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(228, 181, 110);
+        border: 2px solid #533d0a;
+        text-align: center;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        background-color: rgb(255, 216, 162);
+        border: 2px solid #533d0a;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: rgb(222, 168, 88);
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="text"], input[type="email"], textarea {
+        padding: 8px;
+        border: 1px solid #533d0a;
+        border-radius: 4px;
+    }
+    input[type="text"], input[type="name"] {
+        padding: 8px;
+        border: 1px solid #533d0a;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        font-weight: bold;
+        background-color: rgb(237, 199, 140);
+        color: #82692f;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #d7c9a8;
+    }
+    .transition-button {
+        color: #342504;
+        background-color: rgb(209, 131, 131);
+        padding:10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .transition-button:hover {
+        background-color: rgb(222, 168, 88);
+    }
+    .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(228, 181, 110);
+        position: relative;
+        animation: move 2s infinite alternate;
+    }
+    @keyframes move {
+        from {
+            left: 0;
+        }
+        to {
+            left: 150px;
+        }
+    }
+.pseudo-list li:nth-child(odd) {
+    background-color: rgb(242, 202, 141);
+}
+.pseudo-list li:nth-child(even) {
+    background-color: rgb(222, 168, 88);
+}
+.filter-image {
+    filter: sepia(100%);
+    transition: filter 0.3s ease;
+}
+.filter-image:hover {
+    filter: sepia(0%);
+}
+.quote {
+    position: relative;
+    padding-left: 20px;
+    font-style: italic;
+}
+.quote::before {
+    content: '"';
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(198, 145, 65);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-item {
+    background-color: rgb(228, 181, 110);
+    padding: 20px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box {
+    background-color: rgb(227, 165, 72);
+    padding: 20px;
+    text-align: center;
+}
+.responsive-box {
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .responsive-box {
+        background-color: rgb(222, 168, 88);
+    }
+}
+@media (min-width: 601px) {
+    .responsive-box {
+        background-color: rgb(228, 181, 110);
+    }
+}
