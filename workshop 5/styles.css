@@ -163,4 +163,7 @@ p {
         flex-basis: 100%;
     }
 }
-
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
