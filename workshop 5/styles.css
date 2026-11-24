@@ -181,16 +181,15 @@ p {
             background-color: rgb(228, 181, 110);
         }
     }
-    .responsive-nav .nav-list {
-        display: flex;
-        list-style: none;
-        text-align: center;
-    }
+.responsive-nav .nav-list {
+      display: flex;
+      list-style: none;
+    } 
     @media (max-width: 600px) {
-        .responsive-nav .nav-list {
-            display: none;
-        }
-        .responsive-nav .menu-toggle {
-            display: block;
-        }
+      .responsive-nav .nav-list {
+        display: none;
+      }
+      .responsive-nav .menu-toggle {
+        display: block;
+      }
     }
