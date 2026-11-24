@@ -167,4 +167,18 @@ p {
     width: 50%;
     height: auto;
 }
-
+.media-query-box {
+    padding: 20px;
+    text-align: center;
+}
+    @media (max-width: 600px) {
+        .media-query-box {
+            background-color: rgb(222, 168, 88);
+        }
+    }
+    @media (min-width: 601px) {
+        .media-query-box {
+            background-color: rgb(228, 181, 110);
+        }
+    }
+    
